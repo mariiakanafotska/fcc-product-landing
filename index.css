@@ -22,3 +22,15 @@ main{
     body {
       background-color: #DAB5D6;
     }
+
+.pricing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about__us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
