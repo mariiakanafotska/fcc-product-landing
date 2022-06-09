@@ -1,3 +1,15 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Montserrat:wght@400;700&family=Oswald&display=swap');
+ @import url("https://fonts.googleapis.com/css?family=Roboto:100")
+ 
+ :root{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+ }
+ *{
+     margin: 0;
+     padding: 0;
+ }
 header {
     position: fixed;
     top: 0;
@@ -6,7 +18,23 @@ header {
     display: flex;
     background-color:#C8CBFE;
     width: 100%;
-    
+}
+.container{
+text-transform: uppercase;
+box-sizing: border-box;
+display: block;
+font-weight: 400;
+width: 35vw;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-left: 500px;
+}
+.container a {
+    text-decoration: none;
+}
+.container a:hover {
+    text-decoration: underline;
 }
 body {
     background-color:floralwhite
@@ -22,15 +50,16 @@ main{
     body {
       background-color: #DAB5D6;
     }
-
+}
 .pricing{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+    background-color: #C8CBFE;
 }
 .about__us{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
