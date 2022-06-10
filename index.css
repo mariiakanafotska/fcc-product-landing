@@ -107,6 +107,16 @@ main{
     display: flex;
     flex-direction: row;
     background-color: #DAB5D6;
+    justify-content: center;
+}
+.thumb{
+    margin-top: 25px;
+}
+.public{
+    margin-top: -5px;
+}
+.favorite{
+margin-top: 0px;
 }
 .sizes{
     height: 125px;
