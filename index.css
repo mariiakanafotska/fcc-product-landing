@@ -103,25 +103,20 @@ main{
     display: flex;
     flex-direction: column;
 }
+
+.about__us-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 .general{
     display: flex;
     flex-direction: row;
     background-color: #DAB5D6;
     justify-content: center;
 }
-.thumb{
-    margin-top: 25px;
-}
-.public{
-    margin-top: -5px;
-}
-.favorite{
-margin-top: 0px;
-}
-.sizes{
-    height: 125px;
-    
-}
+
 .services{
     margin-top: 50px;
     margin-bottom: 50px;
