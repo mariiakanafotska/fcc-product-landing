@@ -51,7 +51,7 @@ h1{
     margin-top: 50px;
 }
 #form{
-    padding: 10px;
+    padding: 1px;
 }
 .container{
 text-transform: uppercase;
@@ -115,7 +115,7 @@ main{
 .general{
     display: flex;
     flex-direction: row;
-    background-color: #DAB5D6;
+    background: linear-gradient(35deg,plum,#C8CBFE,#FFCCCC );
     justify-content: center;
 }
 
@@ -144,7 +144,7 @@ main{
     font-size: 1em;
     font-weight: 900;
     text-transform: uppercase;
-    border: 3px black solid;
+    border: 5px fuchsia;
     border-radius: 2px;
     background: transparent;
     cursor: pointer;
@@ -158,7 +158,7 @@ main{
     border-radius: 5px;
     color: white;
     background-color:plum;
-    padding: 5px 10px 8px 10px;
+    padding: 5px 5px 5px 5px;
     margin-top: 10px;
   }
 
